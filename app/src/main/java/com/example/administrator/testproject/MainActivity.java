@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_image).setOnClickListener(this);
         findViewById(R.id.btn_surface).setOnClickListener(this);
         findViewById(R.id.btn_custom).setOnClickListener(this);
+        findViewById(R.id.btn_camera).setOnClickListener(this);
 
     }
 
@@ -32,6 +33,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btn_custom:
                 startActivity(new Intent(this, ShowCustomView.class));
+                break;
+
+            case R.id.btn_camera:
+                startActivity(new Intent(this, CameraActivity.class));
                 break;
         }
 
