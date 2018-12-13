@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_image).setOnClickListener(this);
         findViewById(R.id.btn_surface).setOnClickListener(this);
         findViewById(R.id.btn_custom).setOnClickListener(this);
-        findViewById(R.id.btn_camera).setOnClickListener(this);
+        findViewById(R.id.btn_camera_texture).setOnClickListener(this);
+        findViewById(R.id.btn_camera_surface_view).setOnClickListener(this);
 
     }
 
@@ -35,8 +36,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, ShowCustomView.class));
                 break;
 
-            case R.id.btn_camera:
+            case R.id.btn_camera_texture:
                 startActivity(new Intent(this, CameraActivity.class));
+                break;
+
+            case R.id.btn_camera_surface_view:
+//                startActivity(new Intent(this, SurfaceCameraActivity.class));
+//                startActivity(new Intent(this, Main2Activity.class));
+                startActivity(new Intent(this, CameraSurfaceViewActivity.class));
                 break;
         }
 
