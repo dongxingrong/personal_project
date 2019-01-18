@@ -26,12 +26,10 @@
         <activity android:name=".ShowImage" />
         <activity android:name=".ShowSurface" />
         <activity android:name=".ShowCustomView" />
-        <activity
-            android:name=".CameraActivity"
-            android:screenOrientation="portrait" />
         <activity android:name=".SurfaceCameraActivity" />
         <activity android:name=".CameraSurfaceViewActivity" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Camera2Activity"></activity>
     </application>
 
 </manifest>

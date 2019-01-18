@@ -30,12 +30,6 @@
             android:text="customView"/>
 
         <Button
-            android:id="@+id/btn_camera_texture"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="camera_texture"/>
-
-        <Button
             android:id="@+id/btn_camera_surface_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
